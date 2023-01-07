@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
+import NavBar from './components/NavBar';
+import Home from './pages/Home';
+import Frases1 from './pages/Frases1';
+import Frases2 from './pages/Frases2';
+import Retornos from './pages/Retornos';
+import Contatos from './pages/Contatos';
+import Busca from './components/Busca'
+import Editar from './pages/Editar'
+import UpdateCliente from './pages/UpdateCliente';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <NavBar />
+    
+     <Routes>
+        <Route exact path='/' element={<Home />}></Route>
+        <Route path='/frases1' element={<Frases1 />}></Route>
+        <Route path='/frases2' element={<Frases2 />}></Route>
+        <Route path='/retornos' element={<Retornos />}></Route>
+        <Route path='/contatos' element={<Contatos />}></Route>
+        <Route path='/busca' element={<Busca />}></Route>
+        <Route path='/editar/:id' element={<Editar />}></Route>
+        <Route path='/updateuser/:id' element={<UpdateCliente />}></Route>
+        
+      
+       
+        
+       </Routes>      
+               
+      </Router>
+
+     
     </div>
   );
 }

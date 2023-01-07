@@ -1,0 +1,73 @@
+h1 {
+  font-size: 25px;
+  color: #066a75;
+  padding: 2px 0 10px 0;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: -50px;
+}
+
+.texth2 {
+  text-align: center;
+}
+
+input {
+
+  font-size: 18px;
+}
+
+b {
+  font-size: 15px;
+}
+
+
+
+/*estilo do botão submit */
+
+/*estilo do botão submit no hover */
+input[type="reset"]:hover {
+  background: #4ab3c6;
+
+}
+
+.formexemplo {
+  color: rgb(32, 6, 151);
+  text-align: center;
+
+}
+
+p {
+  color: black;
+  font-size: 20px;
+}
+
+.frases1 {
+
+  background-color: #066a75;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+
+}
+
+.divpai {
+  display: flex;
+}
+
+.divbotao {
+  margin-top: 30px;
+  padding: -1em;
+
+}
+.divpageupdate {
+  margin-left: -500px;
+}
+h4 {
+  color: white;
+ 
+}

@@ -1,0 +1,89 @@
+ul{
+    display: flex;
+    width: 590px;
+	height: 50px;
+    color: white;
+    font-size: 25px;
+    list-style-type:none
+
+    
+}
+ul a:hover {
+    color: white;
+}
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 80%;
+	height: 50px;
+	background-color: #34495e;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav a:hover{
+	background-color: rgb(18, 18, 18);
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #1abc9c;
+}
+body {
+	font-size: 12px;
+	font-family: sans-serif;
+	
+}
+h1 {
+	margin: 40px 0 40px;
+	font-size: 30px;
+	color: #000607;
+	text-shadow: 1px 1px 1px #000000;
+	text-align:center;
+	
+}
+.icone{
+    /* margin-top: -40px;
+	margin-left: 400px; */
+	color: #1abc9c;
+}
+.divpaisearch{
+	display: flex;
+	padding: 3px;
+	margin-left: 110px;
+}

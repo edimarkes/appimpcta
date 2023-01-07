@@ -1,0 +1,31 @@
+h1{
+    color: rgb(51, 15, 213);
+}
+
+.divpai{
+    
+    display: flex;
+    margin-left: 300px;
+    
+   
+}
+label {
+    color: rgb(7, 5, 14);
+    font-size: 20px;
+    padding: 0.5em;
+    
+}
+.divbotao{
+    margin-top: 25px;
+    padding: 2em;
+}
+.classetr {
+    color: rgb(5, 131, 173);
+    font-size: 15px;
+}
+
+.tr {
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
